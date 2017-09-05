@@ -1,0 +1,43 @@
+.container-cust {
+	width: 1200px;
+	padding: 10px;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+}
+
+.section {
+
+}
+
+.player, .player-noselection {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 172px;
+	border: 1px solid #333;
+	padding: 0px 10px 0px 10px;
+	margin-right: 5px;
+}
+
+.player-name, .player-health {
+	font-weight: 600;
+}
+
+#chosen-player, #enemy-player {}
+
+.player-layer {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row nowrap;
+}
+
+.active-player {
+	border: 1px solid #0f0;
+}
+
+.action-log {
+	border: 1px solid #ccc;
+	background-color: #2efccc;
+	overflow: auto;
+	height: 100%;
+}

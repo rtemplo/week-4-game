@@ -4,13 +4,6 @@ body {
 	padding-top: 60px;
 }
 
-.container-cust {
-	width: 1200px;
-	padding: 10px;
-	margin: 0px auto;
-	border: 1px solid #ccc;
-}
-
 .section {
 
 }
@@ -26,11 +19,13 @@ body {
 	background-color: #ddd;
 }
 
+.player img:hover {
+	opacity: 0.5;
+}
+
 .player-name, .player-health {
 	font-weight: 600;
 }
-
-#chosen-player, #enemy-player {}
 
 .player-layer {
 	display: flex;
@@ -42,11 +37,11 @@ body {
 	border: 1px solid #0f0;
 }
 
-.action-log {
+#action-log {
 	border: 1px solid #ccc;
 	background-color: #2efccc;
 	overflow: auto;
-	height: 100%;
+	height: 300px;
 }
 
 .layer-title {

@@ -7,7 +7,6 @@ function game() {
 		if (this.attacker != null && this.defender != null) {
 			this.defender.hp-=this.attacker.ca;
 			this.attacker.ca+=this.base;
-//			this.attacker.ca*=2;
 			this.attacker.hp-=this.defender.ca;
 			
 			updateUIStats(false, true);
@@ -97,6 +96,9 @@ function updateUIStats(reset, attacked) {
 		$("#btn-attack").hide();
 		$("#btn-restart").show();
 	}
+	
+	//scroll spy so the action log is always showing the latest at the bottom
+	$("#action-log").scrollTop($("#action-log")[0].scrollHeight);
 }
 
 var starWarsRPG = new game();

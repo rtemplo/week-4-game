@@ -14,14 +14,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="assets/css/style.css" />
-
+	
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 <body>
 
 <div class="container">
-	<h1>Star Wars RPG</h1>
+	<h2 class="layer-title">Star Wars RPG</h2>
 	<hr>
 	<div class="row">
 		<div class="col-md-4">
@@ -40,25 +40,25 @@
 				<div class="player-layer" id="available-players">
 					<div class="player" id="obi-wan">
 						<div class="player-name">Obi-Wan-Kenobi</div>
-						<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+						<div class="player-image"><img src="assets/images/obiwan.jpg" alt="Obi Wan Kenobi"></div>
 						<div class="player-health">120</div>
 					</div>
 
 					<div class="player" id="luke-skywalker">
 						<div class="player-name">Luke Skywalker</div>
-						<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+						<div class="player-image"><img src="assets/images/lukeskywalker.jpg" alt="Luke Skywalker"></div>
 						<div class="player-health">100</div>
 					</div>	
 
 					<div class="player" id="darth-sidious">
 						<div class="player-name">Darth Sidious</div>
-						<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+						<div class="player-image"><img src="assets/images/sidious.jpg" alt="Darth Sidious"></div>
 						<div class="player-health">150</div>
 					</div>
 
 					<div class="player" id="darth-maul">
 						<div class="player-name">Darth Maul</div>
-						<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+						<div class="player-image"><img src="assets/images/maul.jpg" alt="Darth Maul"></div>
 						<div class="player-health">180</div>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 						<h4 class="layer-title">Your Character</h4>	
 						<div class="player-noselection" id="attacker-noselection">
 							<div class="player-name">Not Selected</div>
-							<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+							<div class="player-image"><img src="assets/images/imperialseal.jpg" alt=""></div>
 							<div class="player-health">--</div>
 						</div>			
 					</div>
@@ -80,19 +80,24 @@
 						<h4 class="layer-title">Defender</h4>
 						<div class="player-noselection" id="defender-noselection">
 							<div class="player-name">Not Selected</div>
-							<div class="player-image"><img src="http://via.placeholder.com/150x100" alt=""></div>
+							<div class="player-image"><img src="assets/images/rebel_alliance.jpg" alt=""></div>
 							<div class="player-health">--</div>
 						</div>			
 					</div>
 				</div>
 
 			</div>
+			<hr>
 		</div>
 		<div class="col-md-4">
-			<h4 class="layer-title">Action Log</h4>
-			<ol id="action-log">
-				
-			</ol>
+			<div class="panel panel-default">
+				<div class="panel-heading">Action Log</div>
+				<div class="panel-body panel-info">
+					<ol id="action-log">
+
+					</ol>						
+				</div>
+			</div>
 		</div>
 	</div>
 	

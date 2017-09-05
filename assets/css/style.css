@@ -1,3 +1,9 @@
+body {
+	background-image: url(../images/sw_bg.jpg);
+	background-size: 100%;
+	padding-top: 60px;
+}
+
 .container-cust {
 	width: 1200px;
 	padding: 10px;
@@ -17,6 +23,7 @@
 	border: 1px solid #333;
 	padding: 0px 10px 0px 10px;
 	margin-right: 5px;
+	background-color: #ddd;
 }
 
 .player-name, .player-health {
@@ -40,4 +47,8 @@
 	background-color: #2efccc;
 	overflow: auto;
 	height: 100%;
+}
+
+.layer-title {
+	color: #fff;
 }
